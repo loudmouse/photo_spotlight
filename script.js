@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   const div = document.getElementById('featured-photographer');
 
-  const photog_url = 'https://api.unsplash.com/users/anthonyintraversato?&client_id=3af8662ba60ee5845668e501d7ecd832331c22e5d9c1b95de45e008c734adea1';
+  const photog_url = 'https://api.unsplash.com/users/lanceanderson?&client_id=3af8662ba60ee5845668e501d7ecd832331c22e5d9c1b95de45e008c734adea1';
 
   function createNode(element) {
       return document.createElement(element);
@@ -108,7 +108,7 @@ $(document).ready(function(){
 
   const ul = document.getElementById('photos');
 
-  const url = 'https://api.unsplash.com/collections/3362390/photos?&per_page=12&client_id=3af8662ba60ee5845668e501d7ecd832331c22e5d9c1b95de45e008c734adea1';
+  const url = 'https://api.unsplash.com/collections/3363781/photos?&per_page=12&client_id=3af8662ba60ee5845668e501d7ecd832331c22e5d9c1b95de45e008c734adea1';
 
   function createNode(element) {
       return document.createElement(element);
